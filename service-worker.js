@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/BekoLolek/web2-assignment-2/precache-manifest.94ba72f2067c1e78c9c44214c17f0f82.js"
+  "/web2-assignment-2/precache-manifest.6e3e02d90abb47f4d91368c8405eeb96.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/BekoLolek/web2-assignment-2/index.html", {
+workbox.routing.registerNavigationRoute("/web2-assignment-2/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
