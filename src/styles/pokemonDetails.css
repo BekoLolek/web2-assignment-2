@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+button{
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.pokemon-details{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 10px;
+    background-color: lightgrey;
+    color: 222px;
+    border-radius: 5px;
+}
+
+.pokemon-details h1{
+    text-transform: uppercase;
+}
+
+.pokemon-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
